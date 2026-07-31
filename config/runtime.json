@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "runtimes": [
+    {
+      "kind": "nginx",
+      "defaultVersion": "1.31.3",
+      "bootstrap": true,
+      "versions": [
+        {
+          "version": "1.31.3",
+          "url": "https://nginx.org/download/nginx-1.31.3.zip",
+          "archive": "zip",
+          "sha256": null,
+          "recommended": true,
+          "description": "Nginx for Windows"
+        }
+      ]
+    },
+    {
+      "kind": "php",
+      "defaultVersion": "8.5.9",
+      "bootstrap": true,
+      "versions": [
+        {
+          "version": "8.5.9",
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.5.9-nts-Win32-vs17-x64.zip",
+          "archive": "zip",
+          "sha256": "516c2d72231bd035c8a910120834add0ad208098b790b4909b2cbeb93ce135fc",
+          "recommended": true,
+          "description": "PHP 8.5 NTS x64"
+        },
+        {
+          "version": "8.4.16",
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.4.16-nts-Win32-vs17-x64.zip",
+          "archive": "zip",
+          "sha256": null,
+          "recommended": false,
+          "description": "PHP 8.4 NTS x64"
+        },
+        {
+          "version": "8.3.29",
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.3.29-nts-Win32-vs16-x64.zip",
+          "archive": "zip",
+          "sha256": null,
+          "recommended": false,
+          "description": "PHP 8.3 NTS x64"
+        }
+      ]
+    },
+    {
+      "kind": "mysql",
+      "defaultVersion": "8.4.10",
+      "bootstrap": true,
+      "versions": [
+        {
+          "version": "8.4.10",
+          "url": "https://cdn.mysql.com/Downloads/MySQL-8.4/mysql-8.4.10-winx64.zip",
+          "archive": "zip",
+          "sha256": null,
+          "recommended": true,
+          "description": "MySQL 8.4 LTS x64"
+        }
+      ]
+    },
+    {
+      "kind": "python",
+      "defaultVersion": "3.14.6",
+      "bootstrap": false,
+      "versions": [
+        {
+          "version": "3.14.6",
+          "url": "https://www.python.org/ftp/python/3.14.6/python-3.14.6-embed-amd64.zip",
+          "archive": "zip",
+          "sha256": null,
+          "recommended": true,
+          "description": "Python 3.14 embeddable x64"
+        },
+        {
+          "version": "3.13.14",
+          "url": "https://www.python.org/ftp/python/3.13.14/python-3.13.14-embed-amd64.zip",
+          "archive": "zip",
+          "sha256": null,
+          "recommended": false,
+          "description": "Python 3.13 embeddable x64"
+        },
+        {
+          "version": "3.12.12",
+          "url": "https://www.python.org/ftp/python/3.12.12/python-3.12.12-embed-amd64.zip",
+          "archive": "zip",
+          "sha256": null,
+          "recommended": false,
+          "description": "Python 3.12 embeddable x64"
+        }
+      ]
+    },
+    {
+      "kind": "node",
+      "defaultVersion": "24.18.0",
+      "bootstrap": false,
+      "versions": [
+        {
+          "version": "24.18.0",
+          "url": "https://nodejs.org/dist/v24.18.0/node-v24.18.0-win-x64.zip",
+          "archive": "zip",
+          "sha256": null,
+          "recommended": true,
+          "description": "Node.js 24 LTS x64"
+        },
+        {
+          "version": "22.23.1",
+          "url": "https://nodejs.org/dist/v22.23.1/node-v22.23.1-win-x64.zip",
+          "archive": "zip",
+          "sha256": null,
+          "recommended": false,
+          "description": "Node.js 22 LTS x64"
+        }
+      ]
+    },
+    {
+      "kind": "composer",
+      "defaultVersion": "latest-stable",
+      "bootstrap": false,
+      "versions": [
+        {
+          "version": "latest-stable",
+          "url": "https://getcomposer.org/download/latest-stable/composer.phar",
+          "archive": "file",
+          "fileName": "composer.phar",
+          "sha256": null,
+          "recommended": true,
+          "description": "Composer latest stable"
+        }
+      ]
+    },
+    {
+      "kind": "ssh",
+      "defaultVersion": "10.0.0.0",
+      "bootstrap": false,
+      "versions": [
+        {
+          "version": "10.0.0.0",
+          "url": "https://github.com/PowerShell/Win32-OpenSSH/releases/download/10.0.0.0p2-Preview/OpenSSH-Win64.zip",
+          "archive": "zip",
+          "sha256": "23f50f3458c4c5d0b12217c6a5ddfde0137210a30fa870e98b29827f7b43aba5",
+          "recommended": true,
+          "description": "Microsoft OpenSSH 10.0 portable Win64"
+        }
+      ]
+    },
+    {
+      "kind": "phpmyadmin",
+      "defaultVersion": "5.2.3",
+      "bootstrap": false,
+      "versions": [
+        {
+          "version": "5.2.3",
+          "url": "https://files.phpmyadmin.net/phpMyAdmin/5.2.3/phpMyAdmin-5.2.3-all-languages.zip",
+          "archive": "zip",
+          "sha256": null,
+          "recommended": true,
+          "description": "phpMyAdmin database administration"
+        }
+      ]
+    },
+    {
+      "kind": "ngrok",
+      "defaultVersion": "3-stable",
+      "bootstrap": false,
+      "versions": [
+        {
+          "version": "3-stable",
+          "url": "https://bin.ngrok.com/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip",
+          "archive": "zip",
+          "sha256": null,
+          "recommended": true,
+          "description": "ngrok v3 stable for Windows x64"
+        }
+      ]
+    }
+  ]
+}

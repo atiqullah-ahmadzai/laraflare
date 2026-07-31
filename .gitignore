@@ -1,6 +1,18 @@
-data/*
-logs/*
-projects/*
-www/*
+# Ignore contents of directories but keep directory structure
 cache/*
+!cache/.gitkeep
+
+data/*
+!data/.gitkeep
+
+logs/*
+!logs/.gitkeep
+
+projects/*
+!projects/.gitkeep
+
 tools/*
+!tools/.gitkeep
+
+www/*
+!www/.gitkeep

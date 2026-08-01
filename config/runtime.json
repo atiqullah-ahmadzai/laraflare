@@ -148,17 +148,64 @@
       ]
     },
     {
-      "kind": "phpmyadmin",
-      "defaultVersion": "5.2.3",
+      "kind": "postgresql",
+      "defaultVersion": "16.4.1",
       "bootstrap": false,
       "versions": [
         {
-          "version": "5.2.3",
-          "url": "https://files.phpmyadmin.net/phpMyAdmin/5.2.3/phpMyAdmin-5.2.3-all-languages.zip",
+          "version": "16.4.1",
+          "url": "https://sbp.enterprisedb.com/getfile.jsp?fileid=1258832",
           "archive": "zip",
           "sha256": null,
           "recommended": true,
-          "description": "phpMyAdmin database administration"
+          "description": "PostgreSQL 16.4 database server"
+        }
+      ]
+    },
+    {
+      "kind": "redis",
+      "defaultVersion": "7.2.4",
+      "bootstrap": false,
+      "versions": [
+        {
+          "version": "7.2.4",
+          "url": "https://github.com/tporadowski/redis/releases/download/v5.0.14.1/Redis-x64-5.0.14.1.zip",
+          "archive": "zip",
+          "sha256": null,
+          "recommended": true,
+          "description": "Redis in-memory cache server"
+        }
+      ]
+    },
+    {
+      "kind": "smtp",
+      "defaultVersion": "1.0.0",
+      "bootstrap": false,
+      "versions": [
+        {
+          "version": "1.0.0",
+          "url": "https://github.com/mailhog/MailHog/releases/download/v1.0.1/MailHog_windows_amd64.exe",
+          "archive": "file",
+          "fileName": "mailhog.exe",
+          "sha256": null,
+          "recommended": true,
+          "description": "Local SMTP Mail Capture Server & Inbox"
+        }
+      ]
+    },
+    {
+      "kind": "adminer",
+      "defaultVersion": "4.8.1",
+      "bootstrap": false,
+      "versions": [
+        {
+          "version": "4.8.1",
+          "url": "https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.php",
+          "archive": "file",
+          "fileName": "adminer.php",
+          "sha256": null,
+          "recommended": true,
+          "description": "Adminer lightweight database administration"
         }
       ]
     },
@@ -174,6 +221,21 @@
           "sha256": null,
           "recommended": true,
           "description": "ngrok v3 stable for Windows x64"
+        }
+      ]
+    },
+    {
+      "kind": "apache",
+      "defaultVersion": "2.4.63",
+      "bootstrap": false,
+      "versions": [
+        {
+          "version": "2.4.63",
+          "url": "https://www.apachelounge.com/download/VS17/binaries/httpd-2.4.66-251206-Win64-VS17.zip",
+          "archive": "zip",
+          "sha256": null,
+          "recommended": true,
+          "description": "Apache HTTP Server (httpd)"
         }
       ]
     }

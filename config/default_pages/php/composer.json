@@ -1,0 +1,5 @@
+{
+  "name": "laraflare/{{PROJECT_SLUG}}",
+  "description": "{{PROJECT_NAME}} created with Laraflare",
+  "require": {}
+}

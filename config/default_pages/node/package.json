@@ -1,0 +1,9 @@
+{
+  "name": "{{PROJECT_SLUG}}",
+  "version": "0.1.0",
+  "description": "{{PROJECT_NAME}} created with Laraflare",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
